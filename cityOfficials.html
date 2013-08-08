@@ -22,14 +22,16 @@
 
 <template name="officialList">
 {{#each officials}}
-  <div class="row">
+  <div class="row officialListing">
     <div class="officialHeading">
-      <div class="officialTitle span7">
-        {{title}}
+      <div class="officialTitle span11">
+        <h3>{{title}}  <small class="officialName">{{name}}</small></h3>
       </div>
-      <div class="officialName span5">
-        {{name}}
-      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h5>Authorizations:</h5>
     </div>
   </div>
   {{#each responsibilities}}
