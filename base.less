@@ -1,0 +1,57 @@
+// This file is the base less file for common declarations.
+// It should be the only less file imported.
+
+@backgroundColorDefault: #FFF;
+@backgroundColorAlt: #F0F0F0;
+@backgroundColorHover: #C3DAED;
+@backgroundColorSelected: #7DB0D9;
+
+@textColorDefault: #333;
+@textColorSub: #999;
+@textColorSelected: #fff;
+
+@borderRadius: 4px;
+@baseFontSize: 12px;
+@smallFontSize: 10px;
+@bigFontSize: 16px;
+@reallyBigFontSize: 24px;
+
+@baseLineHeight: 14px;
+@baseSpacing: 10px;
+
+@smallImageSize: 16px;
+@mediumImageSize: 1.5*@smallImageSize;
+@bigImageSize: 2*@smallImageSize;
+
+@standardBorder: 1px solid #AAA;
+@darkBorder: 1px solid @textColorDefault;
+
+.rounded-border (@radius: 4px) {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.transparent (@fraction: 0.50) {
+  @pct: percentage(@fraction);
+  // IE 8
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@pct)";
+
+  // IE 5-7
+  filter: alpha(opacity=@pct);
+
+  // Netscape
+  -moz-opacity: @fraction;
+
+  // Safari 1.x
+  -khtml-opacity: @fraction;
+
+  // Good browsers
+  opacity: @fraction;
+}
+

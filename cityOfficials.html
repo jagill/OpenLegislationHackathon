@@ -1,0 +1,58 @@
+<head>
+  <title>City Officials and their Powers</title>
+</head>
+
+<body>
+  <div class="container">
+    {{> topNav}}
+    {{> officialList }}
+  </div>
+</body>
+
+<template name="topNav">
+  <div class="topnav">
+    <div class="row">
+      <div class="span9 title"> 
+        <h1><a href="/">City Officials</a> <small>Know their power</small>
+        </h1>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="officialList">
+{{#each officials}}
+  <div class="row">
+    <div class="officialHeading">
+      <div class="officialTitle span7">
+        {{title}}
+      </div>
+      <div class="officialName span5">
+        {{name}}
+      </div>
+    </div>
+  </div>
+  {{#each responsibilities}}
+    <div class="row">
+      <div class="span1">
+      </div>
+      <div class="span2">
+        <a href="#"><span class="citation">{{citation}}</span></a>
+      </div>
+      <div class="span9">
+        <span class="responsibilityDescription">{{description}}</span>
+      </div>
+    </div>
+  {{else}}
+    <div class="row">
+      <div class="span12">
+        No responsibilities.
+      </div>
+    </div>
+  {{/each}}
+
+{{else}}
+  <span>No officials yet!</span>
+{{/each}}
+
+</template>
