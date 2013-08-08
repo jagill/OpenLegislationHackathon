@@ -23,7 +23,6 @@
   
   {
     title: 'County Agricultural Commissioner'
-    name: 'Scarlett Olafsdottir'
     responsibilities: [
       {description: 'Can impose $500 fee for issuing a farmers market certificate', citation: 'Section 1.10-1'},
       {description: 'Can impose 0.025 cents/pound fee for inspection of salad products processors', citation: 'Section 1.10-3'},
@@ -33,7 +32,6 @@
   
   {
     title: 'Tax Collector'
-    name: 'Colin McCormick'
     responsibilities: [
       {description: 'Can advertise the sale of tax-defaulted real estate', citation: 'Section 8.34'},
       {description: 'Must report all people delinquent on personal property taxes to the Bureau of Delinquent Reventue Collection', citation: 'Section 10.38'}
