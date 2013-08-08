@@ -3,6 +3,7 @@
   {
     title: 'District Attorney'
     name: 'George Gascon'
+    url: 'http://www.sfdistrictattorney.org/'
     responsibilities: [
       {
         description: 'Can enter into contracts with State of California Department of Justice to participate in Witness Protection Program',
@@ -33,6 +34,7 @@
   {
     title: 'Sheriff'
     name: 'Ross Mirkarimi'
+    url: 'http://www.sfsheriff.com/'
     responsibilities: [
       {
         description: 'Can require county jail inmates to perform labor on public roads'
@@ -54,6 +56,8 @@
   
   {
     title: 'County Agricultural Commissioner'
+    name: 'Miguel Monroy'
+    url: 'http://www.cdpr.ca.gov/docs/county/comenu.htm'
     responsibilities: [
       {
         description: 'Can impose $500 fee for issuing a farmers market certificate'
@@ -75,6 +79,8 @@
   
   {
     title: 'Tax Collector'
+    name: 'David Augustine'
+    url: 'http://www.sftreasurer.org/'
     responsibilities: [
       {
         description: 'Can advertise the sale of tax-defaulted real estate'
@@ -83,7 +89,7 @@
       },
 
       {
-        description: 'Must report all people delinquent on personal property taxes to the Bureau of Delinquent Reventue Collection'
+        description: 'Must report all people delinquent on personal property taxes to the Bureau of Delinquent Revenue Collection'
         citation: 'Section 10.38'
         link: 'http://www.amlegal.com/nxt/gateway.dll/California/administrative/chapter10financetaxationandotherfiscalma?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_10.38'
       }
